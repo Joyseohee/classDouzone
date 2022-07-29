@@ -1,2 +1,5 @@
 1659064207185	Extract local variable 'scanner'
 1659064260925	Convert local variable 'scanner' to field
+1659065289138	Copy compilation unit
+1659065561152	Delete element
+1659065573767	Copy compilation unit
