@@ -14,7 +14,8 @@ public class Quiz02 {
 		System.out.println("숫자 3개를 입력하세요");
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt(), y = sc.nextInt(), z = sc.nextInt();
-	
+
+		
 // 논리 연산
 //*	
 		int max = x > y ? (x > z ? x : z) : (y > z ? y : z);		// 제일 큰 수
