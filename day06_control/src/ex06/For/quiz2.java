@@ -55,7 +55,7 @@ public class quiz2 {
 		
 
 		// square
-		System.out.println("Quiz 7");
+		System.out.println("Quiz 8");
 		for (int i = 0; i < 5; i++) {
 			for (int l = 5 - i - 1; l > 0; l--) {
 				System.out.print(" ");
