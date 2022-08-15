@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ex05.defaultCons","c":"MainEntry","l":"gob(int, int)","url":"gob(int,int)"},{"p":"ex05.defaultCons","c":"MainEntry","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"ex05.defaultCons","c":"MainEntry","l":"MainEntry()","url":"%3Cinit%3E()"}]
