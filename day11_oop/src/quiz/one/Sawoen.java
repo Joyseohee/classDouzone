@@ -1,4 +1,4 @@
-package ex03.oop;
+package quiz.one;
 
 import java.util.Scanner;
 

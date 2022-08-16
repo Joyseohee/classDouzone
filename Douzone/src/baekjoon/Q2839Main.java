@@ -32,7 +32,7 @@ public class Q2839Main {
 //*
 import java.util.*;
 
-class Main {
+class Q2839Main {
 	public static void main(String[] V) {
 		Scanner S = new Scanner(System.in);
 		int N = S.nextInt(), T = 0, F = N / 5;
