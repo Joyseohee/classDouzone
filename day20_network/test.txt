@@ -1,0 +1,17 @@
+Scanner vs BufferedReader
+
+1.
+Scanner : 1kb의 buffer를 사용
+BufferedReader : 8kb의 buffer 사용
+
+2.
+scanner : 문자열을 구분하여 분석해주는 pashing이 가능
+BufferedReader : 문자열을 그대로 입력받아주기만함
+
+scanner의 경우 입력받은 문자열의 자료형을 분석하기 때문에 사용하기에 따라 편리한 기능이 있지만
+속도가 BufferedReader보다 느리다. BufferedReader는 입력을 String으로 받기 때문에 다시 형변환을 해주는 등의
+데이터 가공을 해주어야한다.
+
+3.
+scanner의 경우 single thread를 사용한다.
+그렇지만 BufferedReader는 여러 thread간에 공유가 가능하기에 큰 데이터의 경우 속도가 빠르다.
