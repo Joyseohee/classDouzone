@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" jdk="JavaSE-11" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="ojdbc8" value="project"/>
+		<level name="ojdbc8_1" value="project"/>
+	</levels>
+</component>

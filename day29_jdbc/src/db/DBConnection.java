@@ -22,7 +22,7 @@ public class DBConnection {
 		Reader reader;	//파일 읽어올 객체
 		try {
 //			reader = new FileReader("D:/oracledata/db/oracle.properties");  // 읽어올 파일 지정
-			reader = new FileReader("D:/SeoheePark/shWorkspac/day29_jdbc/src/db/oracle.properties");  // 읽어올 파일 지정, 절대 경로로 불러옴
+			reader = new FileReader("/Users/joy/Documents/java/javawork/classDouzone/day29_jdbc/src/db/oracle.properties");  // 읽어올 파일 지정, 절대 경로로 불러옴
 			
 //			reader = new FileReader("/oracle.properties");  // 읽어올 파일 지정
 			properties.load(reader);                           // 설정 파일 로딩하기(open + connect)

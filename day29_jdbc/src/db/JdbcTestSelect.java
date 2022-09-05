@@ -19,13 +19,14 @@ public class JdbcTestSelect {
 		// 사용 : dml 명령어
 		try {
 			stmt = conn.createStatement();
-			rset = stmt.executeQuery("SELECT * FROM emp");
+			rset = stmt.executeQuery("SELECT * FROM emp2");
 
 			while (rset.next()) {
 				System.out.print(rset.getInt(1) + "\t");
 				System.out.print(rset.getString(2) + "\t");
 				System.out.println(rset.getString(3));
 			}
+			System.out.println("end");
 		}
 
 		finally {

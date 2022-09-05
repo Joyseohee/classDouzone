@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/day19_thread/day19_thread.iml" filepath="$PROJECT_DIR$/day19_thread/day19_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/day20_network/day20_network.iml" filepath="$PROJECT_DIR$/day20_network/day20_network.iml" />
       <module fileurl="file://$PROJECT_DIR$/day29_jdbc/day29_jdbc.iml" filepath="$PROJECT_DIR$/day29_jdbc/day29_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamProject02/teamProject02.iml" filepath="$PROJECT_DIR$/teamProject02/teamProject02.iml" />
     </modules>
   </component>
 </project>

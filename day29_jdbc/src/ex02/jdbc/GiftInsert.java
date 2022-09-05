@@ -15,7 +15,7 @@ public class GiftInsert {
 		
 		// 2. Connection & Open
 			// driver:@ip:portNum:sid(or 전역데이트베이스명)
-		String url = "jdbc:oracle:thin:@kosaDB_high?TNS_ADMIN=C:/Oracle/Wallet_kosaDB";	// oracle db port number = 1521
+		String url = "jdbc:oracle:thin:@kosaDB_high?TNS_ADMIN=/Users/joy/Applications/Oracle/Wallet_kosaDB";
 		String uid = "user07";
 		String pwd = "xxxxxxAt22cc";
 		
