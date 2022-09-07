@@ -2,24 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3b30c0-2f38-4572-92c9-df5a20f43100" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject01/src/oracle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject01/teamProject01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject02/src/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject02/src/JdbcTestSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject02/src/MainEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teamProject02/teamProject02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc81.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Douzone/src/baekjoon/q1085Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignments/dailyAlmindAss/9월 과제.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/day29_jdbc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/day30_jdbc_mvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/controller/GiftController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/CloseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/ConnectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/ConnectionSingletonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/MainEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn/util/oracle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/model/DeptVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/model/GiftVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/view/DeptMainEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day30_jdbc_mvc/src/view/GiftMainEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/day31_jdbc_gui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/day31_jdbc_gui1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/db/customer.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex01/jdbc/MainEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc/ConnectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc/JDBCProjectEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc/JDBCProjectEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc/MyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc/dbdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/CloseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/ConnectionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/ConnectionSingletonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/MainEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day31_jdbc_gui1/src/util/oracle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/gameSignIn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/LogIn/new_join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/controller/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/db/CloseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/db/dbConnectSingletonHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/model/SignInVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/gameSignIn/src/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/LogIn/new_join.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/controller/SignUpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/db/CloseHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/db/dbConnectSingletonHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/model/SignInVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teamProject01/out/production/gameSignIn/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douzone/Douzone.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/Douzone.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douzone/bin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Douzone/src/baekjoon/q1620Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/src/baekjoon/q1620Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catch/catch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/catch/catch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/Q2839Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/Q2839Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day10Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day10Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day11Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day11Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day12Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day12Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day13Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day13Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day14Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day14Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day15Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day15Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3$Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3$Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3_additional.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day3_additional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/day8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/day8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/q10828Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/q10828Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/baekjoon/q1427Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/baekjoon/q1427Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/bj/q1193Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/bj/q1193Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/codingTest/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/codingTest/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/khanacamedy/binarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/khanacamedy/binarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/practice/ThreadEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/practice/ThreadEx2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/practice/ThreadEx7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/practice/ThreadEx7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Douzone/bin/practice/exMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/Douzone/bin/practice/exMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day02_basic/bin/ex01/basic/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02_basic/bin/ex01/basic/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day02_basic/bin/ex01/basic/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/day02_basic/bin/ex01/basic/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02_basic/day02_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day02_basic/day02_basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/ex01/dataType/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/ex01/dataType/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/ex02/dataType/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/ex02/dataType/DataType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/ex02/dataType/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/ex02/dataType/MainEntry.class" afterDir="false" />
@@ -31,14 +99,12 @@
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx3.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/bin/quiz/QuizEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day03_basic/day03_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day03_basic/day03_basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/day04_basic/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/day04_basic/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/day04_basic/Mainoperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/day04_basic/Mainoperator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/day04_basic/clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/day04_basic/clock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/day04_basic/dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/day04_basic/dice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/day04_basic/time.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/day04_basic/time.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_basic/bin/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/bin/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_basic/day04_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04_basic/day04_basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_control/bin/ex01/scanner/InputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/ex01/scanner/InputTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_control/bin/ex01/scanner/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/ex01/scanner/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_control/bin/ex02/If/IfMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/ex02/If/IfMain.class" afterDir="false" />
@@ -66,14 +132,6 @@
       <change beforePath="$PROJECT_DIR$/day04_control/bin/quiz/QuizScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/quiz/QuizScore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_control/bin/quiz/ScoreSwitch.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/quiz/ScoreSwitch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04_control/bin/quiz/day5Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/bin/quiz/day5Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04_control/day04_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day04_control/day04_control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06_control/day06_control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day06_control/day06_control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_array/day07_array.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day07_array/day07_array.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_method/day08_method.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day08_method/day08_method.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_oop/day09_oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day09_oop/day09_oop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11_oop/day11_oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day11_oop/day11_oop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_inheritance_abstract/day12_inheritance_abstract.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inheritance_abstract/day12_inheritance_abstract.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/Circle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex01/inhertance/Point.class" afterDir="false" />
@@ -121,60 +179,34 @@
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/MainEntry.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/Subway.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/Subway.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/Trans.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/bin/ex10/quiz/Trans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_inhertance_abstact_prof/day12_inhertance_abstact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day12_inhertance_abstact_prof/day12_inhertance_abstact.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_interface_api_2/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_interface_api_2/day13_interface_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day13_interface_api_2/day13_interface_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/MainEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/StringMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/StringMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/StringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex01/string/StringMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex02/stringBuffer/StringBufferEx01.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex02/stringBuffer/StringBufferEx01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex02/stringBuffer/StringBufferEx02.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex02/stringBuffer/StringBufferEx02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/MainEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/StringTokenizeEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/StringTokenizeEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/StringTokenizeEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex03/utilPackage/StringTokenizeEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx3.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx5.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx6.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx7.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx8.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx9.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/CalendarEx9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/Date1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/Date1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx3.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DateFormatEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DecimalFormatEx1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DecimalFormatEx1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DecimalFormatEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/DecimalFormatEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/GregorianCalendar1.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/GregorianCalendar1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/QueueEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/ex04/util/QueueEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/bin/quiz/MainEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/bin/quiz/MainEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14_api_2/day14_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day14_api_2/day14_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15_collection_2/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15_collection_2/day15_collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day15_collection_2/day15_collection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16_collection/day16_collection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day16_collection/day16_collection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day17_io/day17_io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day17_io/day17_io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day19_thread/day19_thread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day19_thread/day19_thread.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day20_network/day20_network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day20_network/day20_network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16_collection/src/ex03/collection/map/TreeMapEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16_collection/src/ex03/collection/map/TreeMapEx1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day29_jdbc/day29_jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/day29_jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/db/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/db/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/db/JdbcTestSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/db/JdbcTestSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/db/oracle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/db/oracle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex01/jdbc/MainEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex01/jdbc/MainEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftInsert2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftInsert2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftSelect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftSelect2.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftSelect2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/day29_jdbc/src/ex02/jdbc/GiftUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject02/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject02/JdbcTestSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject02/MainEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teamProject02/oracle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/day31_jdbc_gui1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/.idea/libraries/ojdbc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/teamProject01/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/.idea/libraries/ojdbc8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day31_jdbc_gui1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/src/oracle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject01/teamProject01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day30_jdbc_mvc/day30_jdbc_mvc1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject02/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/teamProject02/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teamProject02/teamProject02.eml" beforeDir="false" afterPath="$PROJECT_DIR$/teamProject02/teamProject02.eml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,54 +218,129 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EGdHrfcrpCRUqSTazmvjMRVq5y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;JavaSE-11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/joy/Documents/java/javawork/classDouzone/day29_jdbc/src/db&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/joy/Documents/java/javawork/classDouzone",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.12180269",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.query.execution"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "Oracle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ex02.jdbc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day30_jdbc_mvc/src/dbConn" />
       <recent name="$PROJECT_DIR$/day29_jdbc/src/db" />
       <recent name="$PROJECT_DIR$/day29_jdbc/src/ex01/jdbc" />
       <recent name="$PROJECT_DIR$/teamProject02/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day31_jdbc_gui1/src/ex02/jdbc" />
+      <recent name="$PROJECT_DIR$/day31_jdbc_gui1/src" />
       <recent name="$PROJECT_DIR$/teamProject02/src" />
       <recent name="$PROJECT_DIR$/teamProject01/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex02.jdbc" />
+      <recent name="controller" />
+      <recent name="model" />
       <recent name="ex01.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeMapEx1">
-    <configuration name="TreeMapEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.JDBCProjectEx3">
+    <configuration name="DeptMainEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ex03.collection.map.TreeMapEx1" />
-      <module name="day16_collection" />
+      <option name="MAIN_CLASS_NAME" value="view.DeptMainEntry" />
+      <module name="day30_jdbc_mvc1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ex03.collection.map.*" />
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCProjectEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex02.jdbc.JDBCProjectEx1" />
+      <module name="day31_jdbc_gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex02.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCProjectEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex02.jdbc.JDBCProjectEx2" />
+      <module name="day31_jdbc_gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex02.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCProjectEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ex02.jdbc.JDBCProjectEx3" />
+      <module name="day31_jdbc_gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex02.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="util.MainEntry" />
+      <module name="day31_jdbc_gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +388,19 @@
       <item itemvalue="Application.teamProject02" />
       <item itemvalue="Application.q1620Main" />
       <item itemvalue="Application.day29_jdbc" />
-      <item itemvalue="Application.TreeMapEx1" />
+      <item itemvalue="Application.JDBCProjectEx1" />
+      <item itemvalue="Application.JDBCProjectEx2" />
+      <item itemvalue="Application.JDBCProjectEx3" />
+      <item itemvalue="Application.MainEntry" />
+      <item itemvalue="Application.DeptMainEntry" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeMapEx1" />
+        <item itemvalue="Application.JDBCProjectEx3" />
+        <item itemvalue="Application.MainEntry" />
+        <item itemvalue="Application.JDBCProjectEx2" />
+        <item itemvalue="Application.DeptMainEntry" />
+        <item itemvalue="Application.JDBCProjectEx1" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +418,11 @@
       <workItem from="1662225797236" duration="1743000" />
       <workItem from="1662227833412" duration="15886000" />
       <workItem from="1662336851906" duration="2587000" />
-      <workItem from="1662342979466" duration="974000" />
+      <workItem from="1662342979466" duration="16850000" />
+      <workItem from="1662423836379" duration="751000" />
+      <workItem from="1662424653057" duration="31000" />
+      <workItem from="1662426527010" duration="16556000" />
+      <workItem from="1662449800199" duration="6227000" />
     </task>
     <servers />
   </component>
@@ -321,12 +440,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassNotFoundException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,8 +13,6 @@ class TreeMapEx1 {
 		tm.put("d",1000);
 		System.out.println("name : "+tm.get("aa"));
 		System.out.println(tm);
-		
-		
-		
+
 	}
 }
