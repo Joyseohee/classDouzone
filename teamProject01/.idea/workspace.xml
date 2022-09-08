@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce3d74d5-bfec-4c23-9d0b-68666744e5d9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/gameSignIn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/LogIn/new_join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogIn/new_join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/controller/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/db/CloseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/CloseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/db/dbConnectSingletonHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/dbConnectSingletonHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/model/SignInVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SignInVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gameSignIn/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/LogIn/new_join.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/controller/SignUpController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/db/CloseHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/db/dbConnectSingletonHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/model/SignInVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gameSignIn/view/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2ENtlQX7O0Z3o8QLHtvWfPhgHq2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "Oracle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.new_join">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.Main" />
+      <module name="gameSignIn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="new_join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogIn.new_join" />
+      <module name="gameSignIn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LogIn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="wordSignIn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="wordSignIn" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.new_join" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3d74d5-bfec-4c23-9d0b-68666744e5d9" name="Changes" comment="" />
+      <created>1662448021644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662448021644</updated>
+      <workItem from="1662448022717" duration="14191000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

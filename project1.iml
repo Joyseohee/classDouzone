@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$USER_HOME$/Downloads/project1/bin" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/Downloads/project1">
+      <sourceFolder url="file://$USER_HOME$/Downloads/project1/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="jdk-11.0.15.1" jdkType="JavaSDK" />
+    <orderEntry type="library" name="oracle db" level="project" />
+    <orderEntry type="library" name="ojdbc8" level="project" />
+    <orderEntry type="library" name="ojdbc81" level="project" />
+  </component>
+</module>

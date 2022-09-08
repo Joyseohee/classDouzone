@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="KOSA_jihyun">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.43">
+    <root id="1">
+      <IntrospectionLevel>3</IntrospectionLevel>
+      <ServerVersion>19.0.0.0.0</ServerVersion>
+      <TablespacesHash>1698873252</TablespacesHash>
+    </root>
+    <schema id="2" parent="1" name="ADBSNMP">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="ADMIN">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="APEX_220100">
+      <ObjectId>189</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="APPQOSSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="C##ADP$SERVICE">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="C##API">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="C##CLOUD$SERVICE">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="C##CLOUD_OPS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="C##DATA$SHARE">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="C##DNSREST">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="C##DV_ACCT_ADMIN">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="C##DV_OWNER">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="C##OMLIDM">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="C##OMLREST2">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="CTXSYS">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="DBSFWUSER">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="DBSNMP">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="DCAT_ADMIN">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="DIP">
+      <ObjectId>26</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="DOYEON">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="DOYEON88">
+      <ObjectId>174</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="FLOWS_FILES">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="GGADMIN">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="GGSYS">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="GRAPH$METADATA">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="GRAPH$PROXY_USER">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="GSMCATUSER">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="GSMUSER">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="HAPPY">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="HAPPYVIRUS">
+      <ObjectId>202</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="KINGSMILE">
+      <ObjectId>204</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="KINGSMILE2">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="LBACSYS">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="MDDATA">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="MDSYS">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="MTSSYS">
+      <ObjectId>190</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="ODI$PROXY">
+      <ObjectId>185</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="ODI_REPO_USER">
+      <ObjectId>187</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="OML$METADATA">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="OML$MODELS">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="OML$PROXY">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="OMLMOD$PROXY">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="ORACLE_OCM">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="ORDS_METADATA">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="ORDS_PLSQL_GATEWAY">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="PYQSYS">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="RMAN$CATALOG">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="RMAN$VPC">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="RQSYS">
+      <ObjectId>191</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="SH">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="SMILE">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="SSB">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="SYS$UMF">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="USER01">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="USER02">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="USER03">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="USER04">
+      <ObjectId>196</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="USER05">
+      <Current>1</Current>
+      <ObjectId>197</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="USER06">
+      <ObjectId>198</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="USER07">
+      <ObjectId>200</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="USER08">
+      <ObjectId>201</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="XDB">
+      <ObjectId>68</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="kingsmile">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <tablespace id="80" parent="1" name="DATA">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BigFile>1</BigFile>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <user id="81" parent="1" name="ADBSNMP">
+      <ObjectId>97</ObjectId>
+    </user>
+    <user id="82" parent="1" name="ADMIN">
+      <ObjectId>84</ObjectId>
+    </user>
+    <user id="83" parent="1" name="APEX_220100">
+      <ObjectId>189</ObjectId>
+    </user>
+    <user id="84" parent="1" name="APPQOSSYS">
+      <ObjectId>61</ObjectId>
+    </user>
+    <user id="85" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </user>
+    <user id="86" parent="1" name="C##ADP$SERVICE">
+      <ObjectId>112</ObjectId>
+    </user>
+    <user id="87" parent="1" name="C##API">
+      <ObjectId>76</ObjectId>
+    </user>
+    <user id="88" parent="1" name="C##CLOUD$SERVICE">
+      <ObjectId>82</ObjectId>
+    </user>
+    <user id="89" parent="1" name="C##CLOUD_OPS">
+      <ObjectId>75</ObjectId>
+    </user>
+    <user id="90" parent="1" name="C##DATA$SHARE">
+      <ObjectId>83</ObjectId>
+    </user>
+    <user id="91" parent="1" name="C##DNSREST">
+      <ObjectId>137</ObjectId>
+    </user>
+    <user id="92" parent="1" name="C##DV_ACCT_ADMIN">
+      <ObjectId>81</ObjectId>
+    </user>
+    <user id="93" parent="1" name="C##DV_OWNER">
+      <ObjectId>80</ObjectId>
+    </user>
+    <user id="94" parent="1" name="C##OMLIDM">
+      <ObjectId>130</ObjectId>
+    </user>
+    <user id="95" parent="1" name="C##OMLREST2">
+      <ObjectId>138</ObjectId>
+    </user>
+    <user id="96" parent="1" name="CTXSYS">
+      <ObjectId>98</ObjectId>
+    </user>
+    <user id="97" parent="1" name="DBSFWUSER">
+      <ObjectId>38</ObjectId>
+    </user>
+    <user id="98" parent="1" name="DBSNMP">
+      <ObjectId>60</ObjectId>
+    </user>
+    <user id="99" parent="1" name="DCAT_ADMIN">
+      <ObjectId>94</ObjectId>
+    </user>
+    <user id="100" parent="1" name="DIP">
+      <ObjectId>26</ObjectId>
+    </user>
+    <user id="101" parent="1" name="DOYEON">
+      <ObjectId>158</ObjectId>
+    </user>
+    <user id="102" parent="1" name="DOYEON88">
+      <ObjectId>174</ObjectId>
+    </user>
+    <user id="103" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </user>
+    <user id="104" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </user>
+    <user id="105" parent="1" name="FLOWS_FILES">
+      <ObjectId>107</ObjectId>
+    </user>
+    <user id="106" parent="1" name="GGADMIN">
+      <ObjectId>96</ObjectId>
+    </user>
+    <user id="107" parent="1" name="GGSYS">
+      <ObjectId>66</ObjectId>
+    </user>
+    <user id="108" parent="1" name="GRAPH$METADATA">
+      <ObjectId>127</ObjectId>
+    </user>
+    <user id="109" parent="1" name="GRAPH$PROXY_USER">
+      <ObjectId>128</ObjectId>
+    </user>
+    <user id="110" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>24</ObjectId>
+    </user>
+    <user id="111" parent="1" name="GSMCATUSER">
+      <ObjectId>65</ObjectId>
+    </user>
+    <user id="112" parent="1" name="GSMUSER">
+      <ObjectId>25</ObjectId>
+    </user>
+    <user id="113" parent="1" name="HAPPY">
+      <ObjectId>159</ObjectId>
+    </user>
+    <user id="114" parent="1" name="HAPPYVIRUS">
+      <ObjectId>202</ObjectId>
+    </user>
+    <user id="115" parent="1" name="KINGSMILE">
+      <ObjectId>204</ObjectId>
+    </user>
+    <user id="116" parent="1" name="KINGSMILE2">
+      <ObjectId>203</ObjectId>
+    </user>
+    <user id="117" parent="1" name="LBACSYS">
+      <ObjectId>73</ObjectId>
+    </user>
+    <user id="118" parent="1" name="MDDATA">
+      <ObjectId>101</ObjectId>
+    </user>
+    <user id="119" parent="1" name="MDSYS">
+      <ObjectId>100</ObjectId>
+    </user>
+    <user id="120" parent="1" name="MTSSYS">
+      <ObjectId>190</ObjectId>
+    </user>
+    <user id="121" parent="1" name="ODI$PROXY">
+      <ObjectId>185</ObjectId>
+    </user>
+    <user id="122" parent="1" name="ODI_REPO_USER">
+      <ObjectId>187</ObjectId>
+    </user>
+    <user id="123" parent="1" name="OML$METADATA">
+      <ObjectId>139</ObjectId>
+    </user>
+    <user id="124" parent="1" name="OML$MODELS">
+      <ObjectId>120</ObjectId>
+    </user>
+    <user id="125" parent="1" name="OML$PROXY">
+      <ObjectId>140</ObjectId>
+    </user>
+    <user id="126" parent="1" name="OMLMOD$PROXY">
+      <ObjectId>119</ObjectId>
+    </user>
+    <user id="127" parent="1" name="ORACLE_OCM">
+      <ObjectId>42</ObjectId>
+    </user>
+    <user id="128" parent="1" name="ORDS_METADATA">
+      <ObjectId>122</ObjectId>
+    </user>
+    <user id="129" parent="1" name="ORDS_PLSQL_GATEWAY">
+      <ObjectId>126</ObjectId>
+    </user>
+    <user id="130" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>121</ObjectId>
+    </user>
+    <user id="131" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </user>
+    <user id="132" parent="1" name="PYQSYS">
+      <ObjectId>143</ObjectId>
+    </user>
+    <user id="133" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>37</ObjectId>
+    </user>
+    <user id="134" parent="1" name="RMAN$CATALOG">
+      <ObjectId>133</ObjectId>
+    </user>
+    <user id="135" parent="1" name="RMAN$VPC">
+      <ObjectId>134</ObjectId>
+    </user>
+    <user id="136" parent="1" name="RQSYS">
+      <ObjectId>191</ObjectId>
+    </user>
+    <user id="137" parent="1" name="SH">
+      <ObjectId>132</ObjectId>
+    </user>
+    <user id="138" parent="1" name="SMILE">
+      <ObjectId>169</ObjectId>
+    </user>
+    <user id="139" parent="1" name="SSB">
+      <ObjectId>131</ObjectId>
+    </user>
+    <user id="140" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="141" parent="1" name="SYS$UMF">
+      <ObjectId>51</ObjectId>
+    </user>
+    <user id="142" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </user>
+    <user id="143" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </user>
+    <user id="144" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </user>
+    <user id="145" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </user>
+    <user id="146" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="147" parent="1" name="USER01">
+      <ObjectId>193</ObjectId>
+    </user>
+    <user id="148" parent="1" name="USER02">
+      <ObjectId>194</ObjectId>
+    </user>
+    <user id="149" parent="1" name="USER03">
+      <ObjectId>195</ObjectId>
+    </user>
+    <user id="150" parent="1" name="USER04">
+      <ObjectId>196</ObjectId>
+    </user>
+    <user id="151" parent="1" name="USER05">
+      <ObjectId>197</ObjectId>
+      <DefaultTablespaceName>DATA</DefaultTablespaceName>
+      <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
+    </user>
+    <user id="152" parent="1" name="USER06">
+      <ObjectId>198</ObjectId>
+    </user>
+    <user id="153" parent="1" name="USER07">
+      <ObjectId>200</ObjectId>
+    </user>
+    <user id="154" parent="1" name="USER08">
+      <ObjectId>201</ObjectId>
+    </user>
+    <user id="155" parent="1" name="XDB">
+      <ObjectId>68</ObjectId>
+    </user>
+    <user id="156" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <user id="157" parent="1" name="kingsmile">
+      <ObjectId>157</ObjectId>
+    </user>
+  </database-model>
+</dataSource>

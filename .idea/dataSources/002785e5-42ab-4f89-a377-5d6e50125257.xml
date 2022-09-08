@@ -102,11 +102,11 @@
     <schema id="33" parent="1" name="JOY">
       <CreatedTimestamp>2022-09-06.14:06:40</CreatedTimestamp>
       <Current>1</Current>
-      <IntrospectionL1Timestamp>2022-09-06.15:56:31</IntrospectionL1Timestamp>
-      <IntrospectionL2Timestamp>2022-09-06.15:56:31</IntrospectionL2Timestamp>
-      <IntrospectionL3Timestamp>2022-09-06.15:56:31</IntrospectionL3Timestamp>
+      <IntrospectionL1Timestamp>2022-09-07.18:22:00</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2022-09-07.18:22:00</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2022-09-07.18:22:00</IntrospectionL3Timestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
-      <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-07.18:16:01</ModifiedTimestamp>
       <ObjectId>170</ObjectId>
     </schema>
     <schema id="34" parent="1" name="LBACSYS">
@@ -411,57 +411,89 @@
     <user id="131" parent="1" name="XS$NULL">
       <ObjectId>2147483638</ObjectId>
     </user>
-    <table id="132" parent="33" name="GSCORE">
+    <table id="132" parent="33" name="GAME">
+      <CreatedTimestamp>2022-09-07.18:06:47</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-07.18:16:01</ModifiedTimestamp>
+      <ObjectId>89438</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="133" parent="33" name="GSCORE">
       <CreatedTimestamp>2022-09-06.14:06:40</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
       <ObjectId>89336</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="133" parent="33" name="GUSER">
+    <table id="134" parent="33" name="GUSER">
       <CreatedTimestamp>2022-09-06.15:17:01</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
       <ObjectId>89353</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="134" parent="33" name="RANK">
+    <table id="135" parent="33" name="RANK">
       <CreatedTimestamp>2022-09-06.14:11:09</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
       <ObjectId>89345</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <check id="135" parent="132" name="GS_NULL">
+    <check id="136" parent="132" name="RE_GWORD">
+      <ColNames>GWORD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-07.18:06:47</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(GWORD, &apos;^[가-힣]{2,6}&apos;)</Predicate>
+    </check>
+    <column id="137" parent="132" name="GWORD">
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <index id="138" parent="132" name="PK_GWORD">
+      <ColNames>GWORD</ColNames>
+      <CreatedTimestamp>2022-09-07.18:06:47</CreatedTimestamp>
+      <ModifiedTimestamp>2022-09-07.18:16:01</ModifiedTimestamp>
+      <ObjectId>89439</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="139" parent="132" name="PK_GWORD">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-07.18:06:47</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_GWORD</UnderlyingIndexName>
+    </key>
+    <check id="140" parent="133" name="GS_NULL">
       <ColNames>GSCORE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
       <Predicate>&quot;GSCORE&quot; IS NOT NULL</Predicate>
     </check>
-    <check id="136" parent="132" name="RE_GLEVEL">
+    <check id="141" parent="133" name="RE_GLEVEL">
       <ColNames>GLEVEL</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(GLEVEL, &apos;^[A-Z]{4,10}&apos;)</Predicate>
     </check>
-    <check id="137" parent="132" name="RE_GSCORE">
+    <check id="142" parent="133" name="RE_GSCORE">
       <ColNames>GSCORE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(GSCORE, &apos;^[0-9]{2,5}&apos;)</Predicate>
     </check>
-    <column id="138" parent="132" name="GLEVEL">
+    <column id="143" parent="133" name="GLEVEL">
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <DefaultExpression>&apos;BRONZE&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="139" parent="132" name="GSCORE">
+    <column id="144" parent="133" name="GSCORE">
       <DataType>NUMBER(*)|0s</DataType>
       <DefaultExpression>20</DefaultExpression>
       <Position>2</Position>
     </column>
-    <index id="140" parent="132" name="PK_GLEVEL">
+    <index id="145" parent="133" name="PK_GLEVEL">
       <ColNames>GLEVEL</ColNames>
       <CreatedTimestamp>2022-09-06.14:06:40</CreatedTimestamp>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
@@ -469,59 +501,59 @@
       <Unique>1</Unique>
       <TablespaceName>DATA</TablespaceName>
     </index>
-    <key id="141" parent="132" name="PK_GLEVEL">
+    <key id="146" parent="133" name="PK_GLEVEL">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:06:40</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_GLEVEL</UnderlyingIndexName>
     </key>
-    <check id="142" parent="133" name="u_id_ch">
+    <check id="147" parent="134" name="u_id_ch">
       <ColNames>U_ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(u_id, &apos;^[0-9a-zA-Z]{3,8}&apos;)</Predicate>
     </check>
-    <check id="143" parent="133" name="u_pwd_ch">
+    <check id="148" parent="134" name="u_pwd_ch">
       <ColNames>U_PWD</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(u_pwd, &apos;^[0-9a-zA-Z]{6,15}&apos;)</Predicate>
     </check>
-    <column id="144" parent="133" name="U_NAME">
+    <column id="149" parent="134" name="U_NAME">
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="145" parent="133" name="U_ID">
+    <column id="150" parent="134" name="U_ID">
       <DataType>VARCHAR2(24 byte)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="146" parent="133" name="U_PWD">
+    <column id="151" parent="134" name="U_PWD">
       <DataType>VARCHAR2(36 byte)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="147" parent="133" name="BIRTH">
+    <column id="152" parent="134" name="BIRTH">
       <DataType>DATE|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="148" parent="133" name="SCORE">
+    <column id="153" parent="134" name="SCORE">
       <DataType>NUMBER(*)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>5</Position>
     </column>
-    <column id="149" parent="133" name="RANK">
+    <column id="154" parent="134" name="RANK">
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <DefaultExpression>&apos;BRONZE&apos;</DefaultExpression>
       <Position>6</Position>
     </column>
-    <column id="150" parent="133" name="MONEY">
+    <column id="155" parent="134" name="MONEY">
       <DataType>NUMBER(*)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>7</Position>
     </column>
-    <index id="151" parent="133" name="PK_GUSER">
+    <index id="156" parent="134" name="PK_GUSER">
       <ColNames>U_ID</ColNames>
       <CreatedTimestamp>2022-09-06.15:17:01</CreatedTimestamp>
       <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
@@ -529,42 +561,42 @@
       <Unique>1</Unique>
       <TablespaceName>DATA</TablespaceName>
     </index>
-    <key id="152" parent="133" name="PK_GUSER">
+    <key id="157" parent="134" name="PK_GUSER">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.15:17:01</ModifiedTimestamp>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_GUSER</UnderlyingIndexName>
     </key>
-    <check id="153" parent="134" name="RS_NULL">
+    <check id="158" parent="135" name="RS_NULL">
       <ColNames>RSCORE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
       <Predicate>&quot;RSCORE&quot; IS NOT NULL</Predicate>
     </check>
-    <check id="154" parent="134" name="RE_RLEVEL">
+    <check id="159" parent="135" name="RE_RLEVEL">
       <ColNames>RLEVEL</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(RLEVEL, &apos;^[A-Z]{4,10}&apos;)</Predicate>
     </check>
-    <check id="155" parent="134" name="RE_RSCORE">
+    <check id="160" parent="135" name="RE_RSCORE">
       <ColNames>RSCORE</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(RSCORE, &apos;^[0-9]{1,10}&apos;)</Predicate>
     </check>
-    <column id="156" parent="134" name="RLEVEL">
+    <column id="161" parent="135" name="RLEVEL">
       <DataType>VARCHAR2(20 byte)|0s</DataType>
       <DefaultExpression>&apos;BRONZE&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="157" parent="134" name="RSCORE">
+    <column id="162" parent="135" name="RSCORE">
       <DataType>NUMBER(*)|0s</DataType>
       <DefaultExpression>0</DefaultExpression>
       <Position>2</Position>
     </column>
-    <index id="158" parent="134" name="PK_RLEVEL">
+    <index id="163" parent="135" name="PK_RLEVEL">
       <ColNames>RLEVEL</ColNames>
       <CreatedTimestamp>2022-09-06.14:11:09</CreatedTimestamp>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
@@ -572,7 +604,7 @@
       <Unique>1</Unique>
       <TablespaceName>DATA</TablespaceName>
     </index>
-    <key id="159" parent="134" name="PK_RLEVEL">
+    <key id="164" parent="135" name="PK_RLEVEL">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-06.14:11:09</ModifiedTimestamp>
       <Primary>1</Primary>

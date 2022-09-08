@@ -23,5 +23,27 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="ProjectDB_hojin" uuid="b2dd8f6f-d981-4faf-81ab-cf729d3b06e9">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@project_high?TNS_ADMIN=$USER_HOME$/Applications/Oracle/wallet</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="$USER_HOME$/Applications/Oracle/wallet" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="KOSA_jihyun" uuid="8ead7b4c-3c5b-428f-9371-34425516d60b">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@kosaDB_high?TNS_ADMIN=$USER_HOME$/Applications/Oracle/Wallet_kosaDB</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="$USER_HOME$/Applications/Oracle/Wallet_kosaDB" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
