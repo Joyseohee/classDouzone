@@ -1,7 +1,5 @@
 package ex06.net.chat;
 
-import java.net.Socket;
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.Socket;
@@ -15,7 +13,7 @@ public class TcpMultiChatClient {
          System.exit(0);
       }
       try {
-         String ip = "192.168.110.4";
+         String ip = "172.30.1.48";
          Socket s = new Socket(ip, 7777);
          System.out.println("서버에 연결 되었습니다.");
          

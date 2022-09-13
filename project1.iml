@@ -6,8 +6,8 @@
     <content url="file://$USER_HOME$/Downloads/project1">
       <sourceFolder url="file://$USER_HOME$/Downloads/project1/src" isTestSource="false" />
     </content>
-    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="jdk" jdkName="jdk-11.0.15.1" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="oracle db" level="project" />
     <orderEntry type="library" name="ojdbc8" level="project" />
     <orderEntry type="library" name="ojdbc81" level="project" />

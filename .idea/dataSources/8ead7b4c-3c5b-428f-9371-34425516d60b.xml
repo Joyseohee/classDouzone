@@ -6,240 +6,246 @@
       <ServerVersion>19.0.0.0.0</ServerVersion>
       <TablespacesHash>1698873252</TablespacesHash>
     </root>
-    <schema id="2" parent="1" name="ADBSNMP">
-      <ObjectId>97</ObjectId>
-    </schema>
-    <schema id="3" parent="1" name="ADMIN">
-      <ObjectId>84</ObjectId>
-    </schema>
-    <schema id="4" parent="1" name="APEX_220100">
-      <ObjectId>189</ObjectId>
-    </schema>
-    <schema id="5" parent="1" name="APPQOSSYS">
-      <ObjectId>61</ObjectId>
-    </schema>
-    <schema id="6" parent="1" name="AUDSYS">
-      <ObjectId>8</ObjectId>
-    </schema>
-    <schema id="7" parent="1" name="C##ADP$SERVICE">
-      <ObjectId>112</ObjectId>
-    </schema>
-    <schema id="8" parent="1" name="C##API">
-      <ObjectId>76</ObjectId>
-    </schema>
-    <schema id="9" parent="1" name="C##CLOUD$SERVICE">
-      <ObjectId>82</ObjectId>
-    </schema>
-    <schema id="10" parent="1" name="C##CLOUD_OPS">
-      <ObjectId>75</ObjectId>
-    </schema>
-    <schema id="11" parent="1" name="C##DATA$SHARE">
-      <ObjectId>83</ObjectId>
-    </schema>
-    <schema id="12" parent="1" name="C##DNSREST">
-      <ObjectId>137</ObjectId>
-    </schema>
-    <schema id="13" parent="1" name="C##DV_ACCT_ADMIN">
-      <ObjectId>81</ObjectId>
-    </schema>
-    <schema id="14" parent="1" name="C##DV_OWNER">
-      <ObjectId>80</ObjectId>
-    </schema>
-    <schema id="15" parent="1" name="C##OMLIDM">
-      <ObjectId>130</ObjectId>
-    </schema>
-    <schema id="16" parent="1" name="C##OMLREST2">
-      <ObjectId>138</ObjectId>
-    </schema>
-    <schema id="17" parent="1" name="CTXSYS">
-      <ObjectId>98</ObjectId>
-    </schema>
-    <schema id="18" parent="1" name="DBSFWUSER">
-      <ObjectId>38</ObjectId>
-    </schema>
-    <schema id="19" parent="1" name="DBSNMP">
-      <ObjectId>60</ObjectId>
-    </schema>
-    <schema id="20" parent="1" name="DCAT_ADMIN">
-      <ObjectId>94</ObjectId>
-    </schema>
-    <schema id="21" parent="1" name="DIP">
-      <ObjectId>26</ObjectId>
-    </schema>
-    <schema id="22" parent="1" name="DOYEON">
-      <ObjectId>158</ObjectId>
-    </schema>
-    <schema id="23" parent="1" name="DOYEON88">
-      <ObjectId>174</ObjectId>
-    </schema>
-    <schema id="24" parent="1" name="DVF">
-      <ObjectId>103</ObjectId>
-    </schema>
-    <schema id="25" parent="1" name="DVSYS">
-      <ObjectId>1279990</ObjectId>
-    </schema>
-    <schema id="26" parent="1" name="FLOWS_FILES">
-      <ObjectId>107</ObjectId>
-    </schema>
-    <schema id="27" parent="1" name="GGADMIN">
-      <ObjectId>96</ObjectId>
-    </schema>
-    <schema id="28" parent="1" name="GGSYS">
-      <ObjectId>66</ObjectId>
-    </schema>
-    <schema id="29" parent="1" name="GRAPH$METADATA">
-      <ObjectId>127</ObjectId>
-    </schema>
-    <schema id="30" parent="1" name="GRAPH$PROXY_USER">
-      <ObjectId>128</ObjectId>
-    </schema>
-    <schema id="31" parent="1" name="GSMADMIN_INTERNAL">
-      <ObjectId>24</ObjectId>
-    </schema>
-    <schema id="32" parent="1" name="GSMCATUSER">
-      <ObjectId>65</ObjectId>
-    </schema>
-    <schema id="33" parent="1" name="GSMUSER">
-      <ObjectId>25</ObjectId>
-    </schema>
-    <schema id="34" parent="1" name="HAPPY">
-      <ObjectId>159</ObjectId>
-    </schema>
-    <schema id="35" parent="1" name="HAPPYVIRUS">
-      <ObjectId>202</ObjectId>
-    </schema>
-    <schema id="36" parent="1" name="KINGSMILE">
-      <ObjectId>204</ObjectId>
-    </schema>
-    <schema id="37" parent="1" name="KINGSMILE2">
-      <ObjectId>203</ObjectId>
-    </schema>
-    <schema id="38" parent="1" name="LBACSYS">
-      <ObjectId>73</ObjectId>
-    </schema>
-    <schema id="39" parent="1" name="MDDATA">
-      <ObjectId>101</ObjectId>
-    </schema>
-    <schema id="40" parent="1" name="MDSYS">
-      <ObjectId>100</ObjectId>
-    </schema>
-    <schema id="41" parent="1" name="MTSSYS">
-      <ObjectId>190</ObjectId>
-    </schema>
-    <schema id="42" parent="1" name="ODI$PROXY">
-      <ObjectId>185</ObjectId>
-    </schema>
-    <schema id="43" parent="1" name="ODI_REPO_USER">
-      <ObjectId>187</ObjectId>
-    </schema>
-    <schema id="44" parent="1" name="OML$METADATA">
-      <ObjectId>139</ObjectId>
-    </schema>
-    <schema id="45" parent="1" name="OML$MODELS">
-      <ObjectId>120</ObjectId>
-    </schema>
-    <schema id="46" parent="1" name="OML$PROXY">
-      <ObjectId>140</ObjectId>
-    </schema>
-    <schema id="47" parent="1" name="OMLMOD$PROXY">
-      <ObjectId>119</ObjectId>
-    </schema>
-    <schema id="48" parent="1" name="ORACLE_OCM">
-      <ObjectId>42</ObjectId>
-    </schema>
-    <schema id="49" parent="1" name="ORDS_METADATA">
-      <ObjectId>122</ObjectId>
-    </schema>
-    <schema id="50" parent="1" name="ORDS_PLSQL_GATEWAY">
-      <ObjectId>126</ObjectId>
-    </schema>
-    <schema id="51" parent="1" name="ORDS_PUBLIC_USER">
-      <ObjectId>121</ObjectId>
-    </schema>
-    <schema id="52" parent="1" name="OUTLN">
-      <ObjectId>13</ObjectId>
-    </schema>
-    <schema id="53" parent="1" name="PUBLIC">
-      <ObjectId>1</ObjectId>
-    </schema>
-    <schema id="54" parent="1" name="PYQSYS">
-      <ObjectId>143</ObjectId>
-    </schema>
-    <schema id="55" parent="1" name="REMOTE_SCHEDULER_AGENT">
-      <ObjectId>37</ObjectId>
-    </schema>
-    <schema id="56" parent="1" name="RMAN$CATALOG">
-      <ObjectId>133</ObjectId>
-    </schema>
-    <schema id="57" parent="1" name="RMAN$VPC">
-      <ObjectId>134</ObjectId>
-    </schema>
-    <schema id="58" parent="1" name="RQSYS">
-      <ObjectId>191</ObjectId>
-    </schema>
-    <schema id="59" parent="1" name="SH">
-      <ObjectId>132</ObjectId>
-    </schema>
-    <schema id="60" parent="1" name="SMILE">
-      <ObjectId>169</ObjectId>
-    </schema>
-    <schema id="61" parent="1" name="SSB">
-      <ObjectId>131</ObjectId>
-    </schema>
-    <schema id="62" parent="1" name="SYS">
-      <ObjectId>0</ObjectId>
-    </schema>
-    <schema id="63" parent="1" name="SYS$UMF">
-      <ObjectId>51</ObjectId>
-    </schema>
-    <schema id="64" parent="1" name="SYSBACKUP">
-      <ObjectId>2147483617</ObjectId>
-    </schema>
-    <schema id="65" parent="1" name="SYSDG">
-      <ObjectId>2147483618</ObjectId>
-    </schema>
-    <schema id="66" parent="1" name="SYSKM">
-      <ObjectId>2147483619</ObjectId>
-    </schema>
-    <schema id="67" parent="1" name="SYSRAC">
-      <ObjectId>2147483620</ObjectId>
-    </schema>
-    <schema id="68" parent="1" name="SYSTEM">
-      <ObjectId>9</ObjectId>
-    </schema>
-    <schema id="69" parent="1" name="USER01">
-      <ObjectId>193</ObjectId>
-    </schema>
-    <schema id="70" parent="1" name="USER02">
-      <ObjectId>194</ObjectId>
-    </schema>
-    <schema id="71" parent="1" name="USER03">
-      <ObjectId>195</ObjectId>
-    </schema>
-    <schema id="72" parent="1" name="USER04">
-      <ObjectId>196</ObjectId>
-    </schema>
-    <schema id="73" parent="1" name="USER05">
+    <schema id="2" parent="1" name="USER05">
+      <CreatedTimestamp>2022-08-29.19:53:59</CreatedTimestamp>
       <Current>1</Current>
+      <IntrospectionL1Timestamp>2022-09-08.09:37:50</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2022-09-08.09:37:50</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2022-09-08.09:37:50</IntrospectionL3Timestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
       <ObjectId>197</ObjectId>
     </schema>
-    <schema id="74" parent="1" name="USER06">
-      <ObjectId>198</ObjectId>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
     </schema>
-    <schema id="75" parent="1" name="USER07">
-      <ObjectId>200</ObjectId>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
     </schema>
-    <schema id="76" parent="1" name="USER08">
-      <ObjectId>201</ObjectId>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
     </schema>
-    <schema id="77" parent="1" name="XDB">
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>26</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSFWUSER">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ORACLE_OCM">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS$UMF">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSNMP">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="APPQOSSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="GSMCATUSER">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GGSYS">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XDB">
       <ObjectId>68</ObjectId>
     </schema>
-    <schema id="78" parent="1" name="XS$NULL">
-      <ObjectId>2147483638</ObjectId>
+    <schema id="20" parent="1" name="LBACSYS">
+      <ObjectId>73</ObjectId>
     </schema>
-    <schema id="79" parent="1" name="kingsmile">
+    <schema id="21" parent="1" name="C##CLOUD_OPS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="C##API">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="C##DV_OWNER">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="C##DV_ACCT_ADMIN">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="C##CLOUD$SERVICE">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="C##DATA$SHARE">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="ADMIN">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="DCAT_ADMIN">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="GGADMIN">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="ADBSNMP">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="CTXSYS">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="MDSYS">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="MDDATA">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="FLOWS_FILES">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="C##ADP$SERVICE">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="OMLMOD$PROXY">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="OML$MODELS">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="ORDS_METADATA">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="ORDS_PLSQL_GATEWAY">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="GRAPH$METADATA">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="GRAPH$PROXY_USER">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="C##OMLIDM">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="SSB">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="SH">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="RMAN$CATALOG">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="RMAN$VPC">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="C##DNSREST">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="C##OMLREST2">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="OML$METADATA">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="OML$PROXY">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="PYQSYS">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="kingsmile">
       <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="DOYEON">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="HAPPY">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="SMILE">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="DOYEON88">
+      <ObjectId>174</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="ODI$PROXY">
+      <ObjectId>185</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="ODI_REPO_USER">
+      <ObjectId>187</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="APEX_220100">
+      <ObjectId>189</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="MTSSYS">
+      <ObjectId>190</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="RQSYS">
+      <ObjectId>191</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="USER01">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="USER02">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="USER03">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="USER04">
+      <ObjectId>196</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="USER06">
+      <ObjectId>198</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="USER07">
+      <ObjectId>200</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="USER08">
+      <ObjectId>201</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="HAPPYVIRUS">
+      <ObjectId>202</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="KINGSMILE2">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="KINGSMILE">
+      <ObjectId>204</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
     </schema>
     <tablespace id="80" parent="1" name="DATA">
       <AutoSegmentManagement>1</AutoSegmentManagement>
@@ -250,238 +256,1730 @@
       <Logging>1</Logging>
       <Status>E</Status>
     </tablespace>
-    <user id="81" parent="1" name="ADBSNMP">
-      <ObjectId>97</ObjectId>
-    </user>
-    <user id="82" parent="1" name="ADMIN">
-      <ObjectId>84</ObjectId>
-    </user>
-    <user id="83" parent="1" name="APEX_220100">
-      <ObjectId>189</ObjectId>
-    </user>
-    <user id="84" parent="1" name="APPQOSSYS">
-      <ObjectId>61</ObjectId>
-    </user>
-    <user id="85" parent="1" name="AUDSYS">
-      <ObjectId>8</ObjectId>
-    </user>
-    <user id="86" parent="1" name="C##ADP$SERVICE">
-      <ObjectId>112</ObjectId>
-    </user>
-    <user id="87" parent="1" name="C##API">
-      <ObjectId>76</ObjectId>
-    </user>
-    <user id="88" parent="1" name="C##CLOUD$SERVICE">
-      <ObjectId>82</ObjectId>
-    </user>
-    <user id="89" parent="1" name="C##CLOUD_OPS">
-      <ObjectId>75</ObjectId>
-    </user>
-    <user id="90" parent="1" name="C##DATA$SHARE">
-      <ObjectId>83</ObjectId>
-    </user>
-    <user id="91" parent="1" name="C##DNSREST">
-      <ObjectId>137</ObjectId>
-    </user>
-    <user id="92" parent="1" name="C##DV_ACCT_ADMIN">
-      <ObjectId>81</ObjectId>
-    </user>
-    <user id="93" parent="1" name="C##DV_OWNER">
-      <ObjectId>80</ObjectId>
-    </user>
-    <user id="94" parent="1" name="C##OMLIDM">
-      <ObjectId>130</ObjectId>
-    </user>
-    <user id="95" parent="1" name="C##OMLREST2">
-      <ObjectId>138</ObjectId>
-    </user>
-    <user id="96" parent="1" name="CTXSYS">
-      <ObjectId>98</ObjectId>
-    </user>
-    <user id="97" parent="1" name="DBSFWUSER">
-      <ObjectId>38</ObjectId>
-    </user>
-    <user id="98" parent="1" name="DBSNMP">
-      <ObjectId>60</ObjectId>
-    </user>
-    <user id="99" parent="1" name="DCAT_ADMIN">
-      <ObjectId>94</ObjectId>
-    </user>
-    <user id="100" parent="1" name="DIP">
-      <ObjectId>26</ObjectId>
-    </user>
-    <user id="101" parent="1" name="DOYEON">
-      <ObjectId>158</ObjectId>
-    </user>
-    <user id="102" parent="1" name="DOYEON88">
-      <ObjectId>174</ObjectId>
-    </user>
-    <user id="103" parent="1" name="DVF">
-      <ObjectId>103</ObjectId>
-    </user>
-    <user id="104" parent="1" name="DVSYS">
-      <ObjectId>1279990</ObjectId>
-    </user>
-    <user id="105" parent="1" name="FLOWS_FILES">
-      <ObjectId>107</ObjectId>
-    </user>
-    <user id="106" parent="1" name="GGADMIN">
-      <ObjectId>96</ObjectId>
-    </user>
-    <user id="107" parent="1" name="GGSYS">
-      <ObjectId>66</ObjectId>
-    </user>
-    <user id="108" parent="1" name="GRAPH$METADATA">
-      <ObjectId>127</ObjectId>
-    </user>
-    <user id="109" parent="1" name="GRAPH$PROXY_USER">
-      <ObjectId>128</ObjectId>
-    </user>
-    <user id="110" parent="1" name="GSMADMIN_INTERNAL">
-      <ObjectId>24</ObjectId>
-    </user>
-    <user id="111" parent="1" name="GSMCATUSER">
-      <ObjectId>65</ObjectId>
-    </user>
-    <user id="112" parent="1" name="GSMUSER">
-      <ObjectId>25</ObjectId>
-    </user>
-    <user id="113" parent="1" name="HAPPY">
-      <ObjectId>159</ObjectId>
-    </user>
-    <user id="114" parent="1" name="HAPPYVIRUS">
-      <ObjectId>202</ObjectId>
-    </user>
-    <user id="115" parent="1" name="KINGSMILE">
-      <ObjectId>204</ObjectId>
-    </user>
-    <user id="116" parent="1" name="KINGSMILE2">
-      <ObjectId>203</ObjectId>
-    </user>
-    <user id="117" parent="1" name="LBACSYS">
-      <ObjectId>73</ObjectId>
-    </user>
-    <user id="118" parent="1" name="MDDATA">
-      <ObjectId>101</ObjectId>
-    </user>
-    <user id="119" parent="1" name="MDSYS">
-      <ObjectId>100</ObjectId>
-    </user>
-    <user id="120" parent="1" name="MTSSYS">
-      <ObjectId>190</ObjectId>
-    </user>
-    <user id="121" parent="1" name="ODI$PROXY">
-      <ObjectId>185</ObjectId>
-    </user>
-    <user id="122" parent="1" name="ODI_REPO_USER">
-      <ObjectId>187</ObjectId>
-    </user>
-    <user id="123" parent="1" name="OML$METADATA">
-      <ObjectId>139</ObjectId>
-    </user>
-    <user id="124" parent="1" name="OML$MODELS">
-      <ObjectId>120</ObjectId>
-    </user>
-    <user id="125" parent="1" name="OML$PROXY">
-      <ObjectId>140</ObjectId>
-    </user>
-    <user id="126" parent="1" name="OMLMOD$PROXY">
-      <ObjectId>119</ObjectId>
-    </user>
-    <user id="127" parent="1" name="ORACLE_OCM">
-      <ObjectId>42</ObjectId>
-    </user>
-    <user id="128" parent="1" name="ORDS_METADATA">
-      <ObjectId>122</ObjectId>
-    </user>
-    <user id="129" parent="1" name="ORDS_PLSQL_GATEWAY">
-      <ObjectId>126</ObjectId>
-    </user>
-    <user id="130" parent="1" name="ORDS_PUBLIC_USER">
-      <ObjectId>121</ObjectId>
-    </user>
-    <user id="131" parent="1" name="OUTLN">
-      <ObjectId>13</ObjectId>
-    </user>
-    <user id="132" parent="1" name="PYQSYS">
-      <ObjectId>143</ObjectId>
-    </user>
-    <user id="133" parent="1" name="REMOTE_SCHEDULER_AGENT">
-      <ObjectId>37</ObjectId>
-    </user>
-    <user id="134" parent="1" name="RMAN$CATALOG">
-      <ObjectId>133</ObjectId>
-    </user>
-    <user id="135" parent="1" name="RMAN$VPC">
-      <ObjectId>134</ObjectId>
-    </user>
-    <user id="136" parent="1" name="RQSYS">
-      <ObjectId>191</ObjectId>
-    </user>
-    <user id="137" parent="1" name="SH">
-      <ObjectId>132</ObjectId>
-    </user>
-    <user id="138" parent="1" name="SMILE">
-      <ObjectId>169</ObjectId>
-    </user>
-    <user id="139" parent="1" name="SSB">
-      <ObjectId>131</ObjectId>
-    </user>
-    <user id="140" parent="1" name="SYS">
-      <ObjectId>0</ObjectId>
-    </user>
-    <user id="141" parent="1" name="SYS$UMF">
-      <ObjectId>51</ObjectId>
-    </user>
-    <user id="142" parent="1" name="SYSBACKUP">
-      <ObjectId>2147483617</ObjectId>
-    </user>
-    <user id="143" parent="1" name="SYSDG">
-      <ObjectId>2147483618</ObjectId>
-    </user>
-    <user id="144" parent="1" name="SYSKM">
-      <ObjectId>2147483619</ObjectId>
-    </user>
-    <user id="145" parent="1" name="SYSRAC">
-      <ObjectId>2147483620</ObjectId>
-    </user>
-    <user id="146" parent="1" name="SYSTEM">
-      <ObjectId>9</ObjectId>
-    </user>
-    <user id="147" parent="1" name="USER01">
-      <ObjectId>193</ObjectId>
-    </user>
-    <user id="148" parent="1" name="USER02">
-      <ObjectId>194</ObjectId>
-    </user>
-    <user id="149" parent="1" name="USER03">
-      <ObjectId>195</ObjectId>
-    </user>
-    <user id="150" parent="1" name="USER04">
-      <ObjectId>196</ObjectId>
-    </user>
-    <user id="151" parent="1" name="USER05">
+    <user id="81" parent="1" name="USER05">
       <ObjectId>197</ObjectId>
       <DefaultTablespaceName>DATA</DefaultTablespaceName>
       <TemporaryTablespaceName>TEMP</TemporaryTablespaceName>
     </user>
-    <user id="152" parent="1" name="USER06">
-      <ObjectId>198</ObjectId>
+    <user id="82" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
     </user>
-    <user id="153" parent="1" name="USER07">
-      <ObjectId>200</ObjectId>
+    <user id="83" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
     </user>
-    <user id="154" parent="1" name="USER08">
-      <ObjectId>201</ObjectId>
+    <user id="84" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
     </user>
-    <user id="155" parent="1" name="XDB">
+    <user id="85" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </user>
+    <user id="86" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>24</ObjectId>
+    </user>
+    <user id="87" parent="1" name="GSMUSER">
+      <ObjectId>25</ObjectId>
+    </user>
+    <user id="88" parent="1" name="DIP">
+      <ObjectId>26</ObjectId>
+    </user>
+    <user id="89" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>37</ObjectId>
+    </user>
+    <user id="90" parent="1" name="DBSFWUSER">
+      <ObjectId>38</ObjectId>
+    </user>
+    <user id="91" parent="1" name="ORACLE_OCM">
+      <ObjectId>42</ObjectId>
+    </user>
+    <user id="92" parent="1" name="SYS$UMF">
+      <ObjectId>51</ObjectId>
+    </user>
+    <user id="93" parent="1" name="DBSNMP">
+      <ObjectId>60</ObjectId>
+    </user>
+    <user id="94" parent="1" name="APPQOSSYS">
+      <ObjectId>61</ObjectId>
+    </user>
+    <user id="95" parent="1" name="GSMCATUSER">
+      <ObjectId>65</ObjectId>
+    </user>
+    <user id="96" parent="1" name="GGSYS">
+      <ObjectId>66</ObjectId>
+    </user>
+    <user id="97" parent="1" name="XDB">
       <ObjectId>68</ObjectId>
     </user>
-    <user id="156" parent="1" name="XS$NULL">
-      <ObjectId>2147483638</ObjectId>
+    <user id="98" parent="1" name="LBACSYS">
+      <ObjectId>73</ObjectId>
     </user>
-    <user id="157" parent="1" name="kingsmile">
+    <user id="99" parent="1" name="C##CLOUD_OPS">
+      <ObjectId>75</ObjectId>
+    </user>
+    <user id="100" parent="1" name="C##API">
+      <ObjectId>76</ObjectId>
+    </user>
+    <user id="101" parent="1" name="C##DV_OWNER">
+      <ObjectId>80</ObjectId>
+    </user>
+    <user id="102" parent="1" name="C##DV_ACCT_ADMIN">
+      <ObjectId>81</ObjectId>
+    </user>
+    <user id="103" parent="1" name="C##CLOUD$SERVICE">
+      <ObjectId>82</ObjectId>
+    </user>
+    <user id="104" parent="1" name="C##DATA$SHARE">
+      <ObjectId>83</ObjectId>
+    </user>
+    <user id="105" parent="1" name="ADMIN">
+      <ObjectId>84</ObjectId>
+    </user>
+    <user id="106" parent="1" name="DCAT_ADMIN">
+      <ObjectId>94</ObjectId>
+    </user>
+    <user id="107" parent="1" name="GGADMIN">
+      <ObjectId>96</ObjectId>
+    </user>
+    <user id="108" parent="1" name="ADBSNMP">
+      <ObjectId>97</ObjectId>
+    </user>
+    <user id="109" parent="1" name="CTXSYS">
+      <ObjectId>98</ObjectId>
+    </user>
+    <user id="110" parent="1" name="MDSYS">
+      <ObjectId>100</ObjectId>
+    </user>
+    <user id="111" parent="1" name="MDDATA">
+      <ObjectId>101</ObjectId>
+    </user>
+    <user id="112" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </user>
+    <user id="113" parent="1" name="FLOWS_FILES">
+      <ObjectId>107</ObjectId>
+    </user>
+    <user id="114" parent="1" name="C##ADP$SERVICE">
+      <ObjectId>112</ObjectId>
+    </user>
+    <user id="115" parent="1" name="OMLMOD$PROXY">
+      <ObjectId>119</ObjectId>
+    </user>
+    <user id="116" parent="1" name="OML$MODELS">
+      <ObjectId>120</ObjectId>
+    </user>
+    <user id="117" parent="1" name="ORDS_PUBLIC_USER">
+      <ObjectId>121</ObjectId>
+    </user>
+    <user id="118" parent="1" name="ORDS_METADATA">
+      <ObjectId>122</ObjectId>
+    </user>
+    <user id="119" parent="1" name="ORDS_PLSQL_GATEWAY">
+      <ObjectId>126</ObjectId>
+    </user>
+    <user id="120" parent="1" name="GRAPH$METADATA">
+      <ObjectId>127</ObjectId>
+    </user>
+    <user id="121" parent="1" name="GRAPH$PROXY_USER">
+      <ObjectId>128</ObjectId>
+    </user>
+    <user id="122" parent="1" name="C##OMLIDM">
+      <ObjectId>130</ObjectId>
+    </user>
+    <user id="123" parent="1" name="SSB">
+      <ObjectId>131</ObjectId>
+    </user>
+    <user id="124" parent="1" name="SH">
+      <ObjectId>132</ObjectId>
+    </user>
+    <user id="125" parent="1" name="RMAN$CATALOG">
+      <ObjectId>133</ObjectId>
+    </user>
+    <user id="126" parent="1" name="RMAN$VPC">
+      <ObjectId>134</ObjectId>
+    </user>
+    <user id="127" parent="1" name="C##DNSREST">
+      <ObjectId>137</ObjectId>
+    </user>
+    <user id="128" parent="1" name="C##OMLREST2">
+      <ObjectId>138</ObjectId>
+    </user>
+    <user id="129" parent="1" name="OML$METADATA">
+      <ObjectId>139</ObjectId>
+    </user>
+    <user id="130" parent="1" name="OML$PROXY">
+      <ObjectId>140</ObjectId>
+    </user>
+    <user id="131" parent="1" name="PYQSYS">
+      <ObjectId>143</ObjectId>
+    </user>
+    <user id="132" parent="1" name="kingsmile">
       <ObjectId>157</ObjectId>
     </user>
+    <user id="133" parent="1" name="DOYEON">
+      <ObjectId>158</ObjectId>
+    </user>
+    <user id="134" parent="1" name="HAPPY">
+      <ObjectId>159</ObjectId>
+    </user>
+    <user id="135" parent="1" name="SMILE">
+      <ObjectId>169</ObjectId>
+    </user>
+    <user id="136" parent="1" name="DOYEON88">
+      <ObjectId>174</ObjectId>
+    </user>
+    <user id="137" parent="1" name="ODI$PROXY">
+      <ObjectId>185</ObjectId>
+    </user>
+    <user id="138" parent="1" name="ODI_REPO_USER">
+      <ObjectId>187</ObjectId>
+    </user>
+    <user id="139" parent="1" name="APEX_220100">
+      <ObjectId>189</ObjectId>
+    </user>
+    <user id="140" parent="1" name="MTSSYS">
+      <ObjectId>190</ObjectId>
+    </user>
+    <user id="141" parent="1" name="RQSYS">
+      <ObjectId>191</ObjectId>
+    </user>
+    <user id="142" parent="1" name="USER01">
+      <ObjectId>193</ObjectId>
+    </user>
+    <user id="143" parent="1" name="USER02">
+      <ObjectId>194</ObjectId>
+    </user>
+    <user id="144" parent="1" name="USER03">
+      <ObjectId>195</ObjectId>
+    </user>
+    <user id="145" parent="1" name="USER04">
+      <ObjectId>196</ObjectId>
+    </user>
+    <user id="146" parent="1" name="USER06">
+      <ObjectId>198</ObjectId>
+    </user>
+    <user id="147" parent="1" name="USER07">
+      <ObjectId>200</ObjectId>
+    </user>
+    <user id="148" parent="1" name="USER08">
+      <ObjectId>201</ObjectId>
+    </user>
+    <user id="149" parent="1" name="HAPPYVIRUS">
+      <ObjectId>202</ObjectId>
+    </user>
+    <user id="150" parent="1" name="KINGSMILE2">
+      <ObjectId>203</ObjectId>
+    </user>
+    <user id="151" parent="1" name="KINGSMILE">
+      <ObjectId>204</ObjectId>
+    </user>
+    <user id="152" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </user>
+    <user id="153" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </user>
+    <user id="154" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </user>
+    <user id="155" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </user>
+    <user id="156" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </user>
+    <user id="157" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <routine id="158" parent="2" name="PRINT_TABLE">
+      <CreatedTimestamp>2022-08-30.20:31:29</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:29</ModifiedTimestamp>
+      <ObjectId>102440</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>1282</SourceTextLength>
+    </routine>
+    <routine id="159" parent="2" name="P_SAL">
+      <CreatedTimestamp>2022-09-01.19:45:42</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-01.19:46:38</ModifiedTimestamp>
+      <ObjectId>102803</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>91</SourceTextLength>
+    </routine>
+    <routine id="160" parent="2" name="P_TEST">
+      <CreatedTimestamp>2022-09-01.19:43:23</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-01.19:43:23</ModifiedTimestamp>
+      <ObjectId>102802</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>68</SourceTextLength>
+    </routine>
+    <routine id="161" parent="2" name="P_TEST2">
+      <CreatedTimestamp>2022-09-01.19:48:37</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-01.19:48:37</ModifiedTimestamp>
+      <ObjectId>102804</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>117</SourceTextLength>
+    </routine>
+    <sequence id="162" parent="2" name="SEQ_JUMIN_NO">
+      <CacheSize>2</CacheSize>
+      <CreatedTimestamp>2022-08-31.21:16:36</CreatedTimestamp>
+      <Cycled>1</Cycled>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:16:36</ModifiedTimestamp>
+      <ObjectId>102726</ObjectId>
+      <SequenceIdentity>10(160)+10..150</SequenceIdentity>
+    </sequence>
+    <sequence id="163" parent="2" name="SEQ_KOSA">
+      <CreatedTimestamp>2022-08-31.21:15:21</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:15:21</ModifiedTimestamp>
+      <ObjectId>102725</ObjectId>
+      <SequenceIdentity>1(2001)+100</SequenceIdentity>
+    </sequence>
+    <table id="164" parent="2" name="CAL">
+      <CreatedTimestamp>2022-08-30.20:31:33</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:33</ModifiedTimestamp>
+      <ObjectId>102464</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="165" parent="2" name="CUSTOMERS">
+      <CreatedTimestamp>2022-09-06.11:09:42</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-06.11:09:42</ModifiedTimestamp>
+      <ObjectId>103285</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="166" parent="2" name="C_EMP100">
+      <CreatedTimestamp>2022-08-31.21:23:29</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:23:29</ModifiedTimestamp>
+      <ObjectId>102729</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="167" parent="2" name="C_EMP5">
+      <CreatedTimestamp>2022-08-29.20:35:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.20:35:35</ModifiedTimestamp>
+      <ObjectId>102315</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="168" parent="2" name="C_EMP6">
+      <CreatedTimestamp>2022-08-30.20:51:26</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:57:55</ModifiedTimestamp>
+      <ObjectId>102494</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="169" parent="2" name="C_EMPALL">
+      <CreatedTimestamp>2022-08-29.20:32:55</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.20:32:55</ModifiedTimestamp>
+      <ObjectId>102313</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="170" parent="2" name="C_EMP_20">
+      <CreatedTimestamp>2022-08-29.20:28:19</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.20:28:19</ModifiedTimestamp>
+      <ObjectId>102311</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="171" parent="2" name="C_EMP_30">
+      <CreatedTimestamp>2022-08-29.20:31:49</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.20:31:49</ModifiedTimestamp>
+      <ObjectId>102312</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="172" parent="2" name="DEPARTMENT">
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <ObjectId>102455</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="173" parent="2" name="DEPT">
+      <CreatedTimestamp>2022-08-29.19:53:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:49:39</ModifiedTimestamp>
+      <ObjectId>102291</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="174" parent="2" name="DEPT2">
+      <CreatedTimestamp>2022-08-30.20:31:33</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:33</ModifiedTimestamp>
+      <ObjectId>102462</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="175" parent="2" name="DML_ERR_TEST">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102476</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="176" parent="2" name="EMP">
+      <CreatedTimestamp>2022-08-29.19:53:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:48:51</ModifiedTimestamp>
+      <ObjectId>102293</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="177" parent="2" name="EMP2">
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <ObjectId>102460</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="178" parent="2" name="EMP4">
+      <CreatedTimestamp>2022-08-29.20:34:50</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.20:34:50</ModifiedTimestamp>
+      <ObjectId>102314</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="179" parent="2" name="EXAM_01">
+      <CreatedTimestamp>2022-08-30.20:31:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:34</ModifiedTimestamp>
+      <ObjectId>102468</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="180" parent="2" name="GIFT">
+      <CreatedTimestamp>2022-08-30.20:31:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:34</ModifiedTimestamp>
+      <ObjectId>102465</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="181" parent="2" name="GOGAK">
+      <CreatedTimestamp>2022-08-30.20:31:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:34</ModifiedTimestamp>
+      <ObjectId>102466</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="182" parent="2" name="HAKJUM">
+      <CreatedTimestamp>2022-08-30.20:31:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:34</ModifiedTimestamp>
+      <ObjectId>102467</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="183" parent="2" name="JUMIN_T">
+      <CreatedTimestamp>2022-08-31.21:17:17</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:17:17</ModifiedTimestamp>
+      <ObjectId>102727</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="184" parent="2" name="KOSA">
+      <CreatedTimestamp>2022-08-31.21:07:05</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:07:05</ModifiedTimestamp>
+      <ObjectId>102722</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="185" parent="2" name="KOSA2">
+      <CreatedTimestamp>2022-08-31.21:14:01</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:14:01</ModifiedTimestamp>
+      <ObjectId>102724</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="186" parent="2" name="KOSA_T">
+      <CreatedTimestamp>2022-08-31.21:05:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-31.21:05:36</ModifiedTimestamp>
+      <ObjectId>102721</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="187" parent="2" name="LOGIN">
+      <CreatedTimestamp>2022-09-07.09:01:50</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
+      <ObjectId>103340</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="188" parent="2" name="MEMBER">
+      <CreatedTimestamp>2022-08-30.20:31:37</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:37</ModifiedTimestamp>
+      <ObjectId>102487</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="189" parent="2" name="PANMAE">
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102486</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="190" parent="2" name="PRODUCT">
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102484</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="191" parent="2" name="PROFESSOR">
+      <CreatedTimestamp>2022-08-30.20:31:31</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:31</ModifiedTimestamp>
+      <ObjectId>102453</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="192" parent="2" name="PT_01">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102473</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="193" parent="2" name="PT_02">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102474</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="194" parent="2" name="P_01">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102471</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="195" parent="2" name="P_02">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102472</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="196" parent="2" name="P_GRADE">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102469</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="197" parent="2" name="P_TOTAL">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102475</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="198" parent="2" name="REG_TEST">
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <ObjectId>102470</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="199" parent="2" name="SALGRADE">
+      <CreatedTimestamp>2022-08-29.19:53:59</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-29.19:53:59</ModifiedTimestamp>
+      <ObjectId>102295</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="200" parent="2" name="STUDENT">
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <ObjectId>102457</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="201" parent="2" name="TEST_ENABLE">
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102482</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="202" parent="2" name="TEST_NOVALIDATE">
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102478</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="203" parent="2" name="TEST_VALIDATE">
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102480</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="204" parent="2" name="USERLIST">
+      <CreatedTimestamp>2022-09-01.19:56:31</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-01.19:56:31</ModifiedTimestamp>
+      <ObjectId>102805</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="205" parent="2" name="V_STUDENT_JOIN">
+      <CreatedTimestamp>2022-08-30.20:46:50</CreatedTimestamp>
+      <DependsOnIds>102453,102455,102457</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-08-30.20:46:50</ModifiedTimestamp>
+      <ObjectId>102492</ObjectId>
+      <SourceTextLength>198</SourceTextLength>
+    </view>
+    <argument id="206" parent="158" name="P_QUERY">
+      <DataType>varchar2|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="207" parent="159" name="NAME">
+      <DataType>varchar2|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="208" parent="161" name="NAME">
+      <DataType>varchar2|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="209" parent="161" name="SU">
+      <DataType>number|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <column id="210" parent="164" name="WEEK">
+      <DataType>VARCHAR2(1 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="211" parent="164" name="DAY">
+      <DataType>VARCHAR2(4 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="212" parent="164" name="NUM_DAY">
+      <DataType>VARCHAR2(2 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="213" parent="165" name="CODE">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="214" parent="165" name="NAME">
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="215" parent="165" name="EMAIL">
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="216" parent="165" name="PHONE">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="217" parent="165" name="SYS_C0034761">
+      <ColNames>CODE</ColNames>
+      <CreatedTimestamp>2022-09-06.11:09:42</CreatedTimestamp>
+      <ModifiedTimestamp>2022-09-06.11:09:42</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>103286</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="218" parent="165" name="SYS_C0034761">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-06.11:09:42</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034761</UnderlyingIndexName>
+    </key>
+    <column id="219" parent="166" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="220" parent="166" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="221" parent="166" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="222" parent="166" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="223" parent="166" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="224" parent="166" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="225" parent="166" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="226" parent="166" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="227" parent="167" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="228" parent="167" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="229" parent="167" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="230" parent="167" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="231" parent="168" name="ENAME">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="232" parent="168" name="EMPNO">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="233" parent="168" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="234" parent="169" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="235" parent="169" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="236" parent="169" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="237" parent="169" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="238" parent="169" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="239" parent="169" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="240" parent="169" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="241" parent="169" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="242" parent="170" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="243" parent="170" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="244" parent="170" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="245" parent="170" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="246" parent="170" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="247" parent="170" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="248" parent="170" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="249" parent="170" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="250" parent="171" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="251" parent="171" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="252" parent="171" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="253" parent="171" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="254" parent="171" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="255" parent="171" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="256" parent="171" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="257" parent="171" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="258" parent="172" name="DEPTNO">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="259" parent="172" name="DNAME">
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="260" parent="172" name="PART">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="261" parent="172" name="BUILD">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="262" parent="172" name="SYS_C0034501">
+      <ColNames>DEPTNO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102456</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="263" parent="172" name="SYS_C0034501">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034501</UnderlyingIndexName>
+    </key>
+    <column id="264" parent="173" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="265" parent="173" name="DNAME">
+      <DataType>VARCHAR2(14 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="266" parent="173" name="LOC">
+      <DataType>VARCHAR2(13 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="267" parent="173" name="PK_DEPT">
+      <ColNames>DEPTNO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:49:39</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:49:39</ModifiedTimestamp>
+      <ObjectId>102493</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="268" parent="173" name="PK_DEPT">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:49:39</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_DEPT</UnderlyingIndexName>
+    </key>
+    <column id="269" parent="174" name="DCODE">
+      <DataType>VARCHAR2(6 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="270" parent="174" name="DNAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="271" parent="174" name="PDEPT">
+      <DataType>VARCHAR2(6 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="272" parent="174" name="AREA">
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="273" parent="174" name="SYS_C0034512">
+      <ColNames>DCODE</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:33</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:33</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102463</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="274" parent="174" name="SYS_C0034512">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:33</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034512</UnderlyingIndexName>
+    </key>
+    <column id="275" parent="175" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="276" parent="175" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <index id="277" parent="175" name="SYS_C0034513">
+      <ColNames>NO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:35</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102477</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="278" parent="175" name="SYS_C0034513">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:35</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034513</UnderlyingIndexName>
+    </key>
+    <column id="279" parent="176" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="280" parent="176" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="281" parent="176" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="282" parent="176" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="283" parent="176" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="284" parent="176" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="285" parent="176" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="286" parent="176" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <index id="287" parent="176" name="PK_EMP">
+      <ColNames>EMPNO</ColNames>
+      <CreatedTimestamp>2022-08-29.19:53:59</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-29.19:53:59</ModifiedTimestamp>
+      <ObjectId>102294</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="288" parent="176" name="PK_EMP">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-29.19:53:59</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_EMP</UnderlyingIndexName>
+    </key>
+    <column id="289" parent="177" name="EMPNO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="290" parent="177" name="NAME">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="291" parent="177" name="BIRTHDAY">
+      <DataType>DATE|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="292" parent="177" name="DEPTNO">
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="293" parent="177" name="EMP_TYPE">
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="294" parent="177" name="TEL">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="295" parent="177" name="HOBBY">
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="296" parent="177" name="PAY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="297" parent="177" name="POSITION">
+      <DataType>VARCHAR2(16 byte)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="298" parent="177" name="PEMPNO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <index id="299" parent="177" name="SYS_C0034510">
+      <ColNames>EMPNO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102461</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="300" parent="177" name="SYS_C0034510">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034510</UnderlyingIndexName>
+    </key>
+    <column id="301" parent="178" name="EMPNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="302" parent="178" name="ENAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="303" parent="178" name="JOB">
+      <DataType>VARCHAR2(9 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="304" parent="178" name="MGR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="305" parent="178" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="306" parent="178" name="SAL">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="307" parent="178" name="COMM">
+      <DataType>NUMBER(7,2 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="308" parent="178" name="DEPTNO">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="309" parent="179" name="STUDNO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="310" parent="179" name="TOTAL">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="311" parent="180" name="GNO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="312" parent="180" name="GNAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="313" parent="180" name="G_START">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="314" parent="180" name="G_END">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="315" parent="181" name="GNO">
+      <DataType>NUMBER(8 digit)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="316" parent="181" name="GNAME">
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="317" parent="181" name="JUMIN">
+      <DataType>CHAR(13 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="318" parent="181" name="POINT">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="319" parent="182" name="GRADE">
+      <DataType>CHAR(3 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="320" parent="182" name="MIN_POINT">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="321" parent="182" name="MAX_POINT">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="322" parent="183" name="SEQ">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="323" parent="183" name="NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="324" parent="183" name="PHONE">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="325" parent="184" name="NUM">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="326" parent="184" name="ID">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="327" parent="184" name="NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="328" parent="185" name="NUM">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="329" parent="185" name="ID">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="330" parent="185" name="NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="331" parent="186" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="332" parent="186" name="NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <check id="333" parent="187" name="u_id_ch">
+      <ColNames>U_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(u_id, &apos;^[0-9a-zA-Z]{3,8}&apos;)</Predicate>
+    </check>
+    <check id="334" parent="187" name="u_pwd_ch">
+      <ColNames>U_PWD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(u_pwd, &apos;^[0-9a-zA-Z]{6,15}&apos;)</Predicate>
+    </check>
+    <column id="335" parent="187" name="U_NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="336" parent="187" name="U_ID">
+      <DataType>VARCHAR2(24 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="337" parent="187" name="U_PWD">
+      <DataType>VARCHAR2(36 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="338" parent="187" name="BIRTH">
+      <DataType>DATE|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="339" parent="187" name="SCORE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>5</Position>
+    </column>
+    <column id="340" parent="187" name="RANK">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <DefaultExpression>&apos;BRONZE&apos;</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <column id="341" parent="187" name="MONEY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <index id="342" parent="187" name="PK_GUSER">
+      <ColNames>U_ID</ColNames>
+      <CreatedTimestamp>2022-09-07.09:01:50</CreatedTimestamp>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
+      <ObjectId>103341</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="343" parent="187" name="PK_GUSER">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-07.09:01:50</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_GUSER</UnderlyingIndexName>
+    </key>
+    <column id="344" parent="188" name="NO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="345" parent="188" name="NAME">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="346" parent="188" name="JUMIN">
+      <DataType>CHAR(13 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="347" parent="188" name="PASSWD">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="348" parent="188" name="ID">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="349" parent="188" name="AN_KEY">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="350" parent="188" name="AN_KEY_DAP">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <index id="351" parent="188" name="SYS_C0034528">
+      <ColNames>JUMIN</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:37</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:37</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102488</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <index id="352" parent="188" name="SYS_C0034529">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:37</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:37</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102489</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="353" parent="188" name="SYS_C0034528">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:37</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034528</UnderlyingIndexName>
+    </key>
+    <key id="354" parent="188" name="SYS_C0034529">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:37</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <UnderlyingIndexName>SYS_C0034529</UnderlyingIndexName>
+    </key>
+    <column id="355" parent="189" name="P_DATE">
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="356" parent="189" name="P_CODE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="357" parent="189" name="P_QTY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="358" parent="189" name="P_TOTAL">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="359" parent="189" name="P_STORE">
+      <DataType>VARCHAR2(5 byte)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="360" parent="190" name="P_CODE">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="361" parent="190" name="P_NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="362" parent="190" name="P_PRICE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="363" parent="190" name="SYS_C0034521">
+      <ColNames>P_CODE</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102485</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="364" parent="190" name="SYS_C0034521">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034521</UnderlyingIndexName>
+    </key>
+    <column id="365" parent="191" name="PROFNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="366" parent="191" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="367" parent="191" name="ID">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="368" parent="191" name="POSITION">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="369" parent="191" name="PAY">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="370" parent="191" name="HIREDATE">
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="371" parent="191" name="BONUS">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="372" parent="191" name="DEPTNO">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="373" parent="191" name="EMAIL">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="374" parent="191" name="HPAGE">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <index id="375" parent="191" name="SYS_C0034499">
+      <ColNames>PROFNO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:31</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:31</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102454</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="376" parent="191" name="SYS_C0034499">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:31</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034499</UnderlyingIndexName>
+    </key>
+    <column id="377" parent="192" name="판매번호">
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="378" parent="192" name="제품번호">
+      <DataType>CHAR(4 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="379" parent="192" name="수량">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="380" parent="192" name="금액">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="381" parent="193" name="판매번호">
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="382" parent="193" name="제품번호">
+      <DataType>CHAR(4 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="383" parent="193" name="수량">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="384" parent="193" name="금액">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="385" parent="194" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="386" parent="194" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="387" parent="195" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="388" parent="195" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="389" parent="196" name="POSITION">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="390" parent="196" name="S_AGE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="391" parent="196" name="E_AGE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="392" parent="196" name="S_YEAR">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="393" parent="196" name="E_YEAR">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="394" parent="196" name="S_PAY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="395" parent="196" name="E_PAY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="396" parent="197" name="판매번호">
+      <DataType>VARCHAR2(8 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="397" parent="197" name="제품번호">
+      <DataType>CHAR(4 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="398" parent="197" name="수량">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="399" parent="197" name="금액">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="400" parent="198" name="TEXT">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="401" parent="199" name="GRADE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="402" parent="199" name="LOSAL">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="403" parent="199" name="HISAL">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <check id="404" parent="200" name="SYS_C0034505">
+      <ColNames>GRADE</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Predicate>grade between 1 and 6</Predicate>
+    </check>
+    <column id="405" parent="200" name="STUDNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="406" parent="200" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="407" parent="200" name="ID">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="408" parent="200" name="GRADE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="409" parent="200" name="JUMIN">
+      <DataType>CHAR(13 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="410" parent="200" name="BIRTHDAY">
+      <DataType>DATE|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="411" parent="200" name="TEL">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="412" parent="200" name="HEIGHT">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="413" parent="200" name="WEIGHT">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="414" parent="200" name="DEPTNO1">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="415" parent="200" name="DEPTNO2">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="416" parent="200" name="PROFNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>12</Position>
+    </column>
+    <index id="417" parent="200" name="SYS_C0034506">
+      <ColNames>STUDNO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102458</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <index id="418" parent="200" name="SYS_C0034507">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:32</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102459</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="419" parent="200" name="SYS_C0034506">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034506</UnderlyingIndexName>
+    </key>
+    <key id="420" parent="200" name="SYS_C0034507">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:32</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <UnderlyingIndexName>SYS_C0034507</UnderlyingIndexName>
+    </key>
+    <check id="421" parent="201" name="TE_NAME_NN">
+      <ColNames>NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <Predicate>&quot;NAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="422" parent="201" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="423" parent="201" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="424" parent="201" name="TE_NO_PK">
+      <ColNames>NO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102483</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="425" parent="201" name="TE_NO_PK">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>TE_NO_PK</UnderlyingIndexName>
+    </key>
+    <column id="426" parent="202" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="427" parent="202" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="428" parent="202" name="SYS_C0034515">
+      <ColNames>NO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>102479</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="429" parent="202" name="SYS_C0034515">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C0034515</UnderlyingIndexName>
+    </key>
+    <check id="430" parent="203" name="TV_NAME_NN">
+      <ColNames>NAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <Predicate>&quot;NAME&quot; IS NOT NULL</Predicate>
+    </check>
+    <column id="431" parent="203" name="NO">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="432" parent="203" name="NAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="433" parent="203" name="TV_NO_PK">
+      <ColNames>NO</ColNames>
+      <CreatedTimestamp>2022-08-30.20:31:36</CreatedTimestamp>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <ObjectId>102481</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="434" parent="203" name="TV_NO_PK">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-08-30.20:31:36</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>TV_NO_PK</UnderlyingIndexName>
+    </key>
+    <column id="435" parent="204" name="ID">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="436" parent="204" name="NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="437" parent="204" name="AGE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="438" parent="204" name="ADDR">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="439" parent="205" name="PROFNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="440" parent="205" name="교수 이름">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="441" parent="205" name="POSITION">
+      <DataType>VARCHAR2(15 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="442" parent="205" name="STUDNO">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="443" parent="205" name="학생 이름">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="444" parent="205" name="GRADE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="445" parent="205" name="DNAME">
+      <DataType>VARCHAR2(25 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
   </database-model>
 </dataSource>

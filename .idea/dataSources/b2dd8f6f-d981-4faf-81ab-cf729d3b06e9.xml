@@ -99,11 +99,11 @@
     <schema id="32" parent="1" name="HOJIN">
       <CreatedTimestamp>2022-09-05.17:46:25</CreatedTimestamp>
       <Current>1</Current>
-      <IntrospectionL1Timestamp>2022-09-07.17:55:32</IntrospectionL1Timestamp>
-      <IntrospectionL2Timestamp>2022-09-07.17:55:32</IntrospectionL2Timestamp>
-      <IntrospectionL3Timestamp>2022-09-07.17:55:32</IntrospectionL3Timestamp>
+      <IntrospectionL1Timestamp>2022-09-11.11:14:03</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2022-09-11.11:14:03</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2022-09-11.11:14:03</IntrospectionL3Timestamp>
       <IntrospectionVersion>200820</IntrospectionVersion>
-      <ModifiedTimestamp>2022-09-07.17:55:32</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-11.00:06:50</ModifiedTimestamp>
       <ObjectId>169</ObjectId>
     </schema>
     <schema id="33" parent="1" name="JOY">
@@ -411,58 +411,125 @@
     <user id="131" parent="1" name="XS$NULL">
       <ObjectId>2147483638</ObjectId>
     </user>
-    <table id="132" parent="32" name="GAMET">
-      <CreatedTimestamp>2022-09-07.17:55:32</CreatedTimestamp>
+    <table id="132" parent="32" name="GAME1">
+      <CreatedTimestamp>2022-09-08.08:29:11</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2022-09-07.17:55:32</ModifiedTimestamp>
-      <ObjectId>89427</ObjectId>
+      <ModifiedTimestamp>2022-09-11.00:06:50</ModifiedTimestamp>
+      <ObjectId>89493</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="133" parent="32" name="KRDIC">
+    <table id="133" parent="32" name="GUSER">
+      <CreatedTimestamp>2022-09-08.16:22:18</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-09-08.16:22:18</ModifiedTimestamp>
+      <ObjectId>89542</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="134" parent="32" name="KRDIC">
       <CreatedTimestamp>2022-09-05.17:46:25</CreatedTimestamp>
       <DetailsLevel>3</DetailsLevel>
-      <ModifiedTimestamp>2022-09-05.17:46:25</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-08.10:35:43</ModifiedTimestamp>
       <ObjectId>89179</ObjectId>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <check id="134" parent="132" name="GW_NULL">
+    <check id="135" parent="132" name="GW_NULL1">
       <ColNames>GWORD</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2022-09-07.17:55:32</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-08.08:29:11</ModifiedTimestamp>
       <Predicate>&quot;GWORD&quot; IS NOT NULL</Predicate>
     </check>
-    <check id="135" parent="132" name="RE_GWORD">
+    <check id="136" parent="132" name="RE_GWORD1">
       <ColNames>GWORD</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <ModifiedTimestamp>2022-09-07.17:55:32</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-08.08:29:11</ModifiedTimestamp>
       <Predicate>REGEXP_LIKE(GWORD, &apos;^[가-힣]{2,6}&apos;)</Predicate>
     </check>
-    <column id="136" parent="132" name="GWORD">
+    <column id="137" parent="132" name="GWORD">
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="137" parent="133" name="ID">
+    <check id="138" parent="133" name="u_id_ch">
+      <ColNames>U_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-08.16:22:18</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(u_id, &apos;^[0-9a-zA-Z]{3,8}&apos;)</Predicate>
+    </check>
+    <check id="139" parent="133" name="u_pwd_ch">
+      <ColNames>U_PWD</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-08.16:22:18</ModifiedTimestamp>
+      <Predicate>REGEXP_LIKE(u_pwd, &apos;^[0-9a-zA-Z]{6,15}&apos;)</Predicate>
+    </check>
+    <column id="140" parent="133" name="U_NAME">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="141" parent="133" name="U_ID">
+      <DataType>VARCHAR2(24 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="142" parent="133" name="U_PWD">
+      <DataType>VARCHAR2(36 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="143" parent="133" name="BIRTH">
+      <DataType>DATE|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="144" parent="133" name="SCORE">
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>5</Position>
+    </column>
+    <column id="145" parent="133" name="RANK">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <DefaultExpression>&apos;BRONZE&apos;</DefaultExpression>
+      <Position>6</Position>
+    </column>
+    <column id="146" parent="133" name="MONEY">
+      <DataType>NUMBER(*)|0s</DataType>
+      <DefaultExpression>0</DefaultExpression>
+      <Position>7</Position>
+    </column>
+    <index id="147" parent="133" name="PK_GUSER">
+      <ColNames>U_ID</ColNames>
+      <CreatedTimestamp>2022-09-08.16:22:18</CreatedTimestamp>
+      <ModifiedTimestamp>2022-09-08.16:22:18</ModifiedTimestamp>
+      <ObjectId>89543</ObjectId>
+      <Unique>1</Unique>
+      <TablespaceName>DATA</TablespaceName>
+    </index>
+    <key id="148" parent="133" name="PK_GUSER">
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2022-09-08.16:22:18</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_GUSER</UnderlyingIndexName>
+    </key>
+    <column id="149" parent="134" name="ID">
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="138" parent="133" name="WORD">
+    <column id="150" parent="134" name="WORD">
       <DataType>VARCHAR2(60 byte)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="139" parent="133" name="PART">
+    <column id="151" parent="134" name="PART">
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <Position>3</Position>
     </column>
-    <index id="140" parent="133" name="PK_KRDIC">
+    <index id="152" parent="134" name="PK_KRDIC">
       <ColNames>ID</ColNames>
       <CreatedTimestamp>2022-09-05.17:46:25</CreatedTimestamp>
-      <ModifiedTimestamp>2022-09-05.17:46:25</ModifiedTimestamp>
+      <ModifiedTimestamp>2022-09-08.10:35:43</ModifiedTimestamp>
       <ObjectId>89180</ObjectId>
       <Unique>1</Unique>
       <TablespaceName>DATA</TablespaceName>
     </index>
-    <key id="141" parent="133" name="PK_KRDIC">
+    <key id="153" parent="134" name="PK_KRDIC">
       <InitiallyDeferred>1</InitiallyDeferred>
       <ModifiedTimestamp>2022-09-05.17:46:25</ModifiedTimestamp>
       <Primary>1</Primary>

@@ -27,9 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/class/day29_jdbc/day29_jdbc.iml" filepath="$PROJECT_DIR$/class/day29_jdbc/day29_jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/class/day30_jdbc_mvc/day30_jdbc_mvc1.iml" filepath="$PROJECT_DIR$/class/day30_jdbc_mvc/day30_jdbc_mvc1.iml" />
       <module fileurl="file://$PROJECT_DIR$/class/day31_jdbc_gui1/day31_jdbc_gui.iml" filepath="$PROJECT_DIR$/class/day31_jdbc_gui1/day31_jdbc_gui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project1.iml" filepath="$PROJECT_DIR$/project1.iml" />
       <module fileurl="file://$PROJECT_DIR$/teamProject01/teamProject01.iml" filepath="$PROJECT_DIR$/teamProject01/teamProject01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/teamProject02/teamProject02.iml" filepath="$PROJECT_DIR$/teamProject02/teamProject02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/teamProject01_final/teamProject01_final.iml" filepath="$PROJECT_DIR$/teamProject01_final/teamProject01_final.iml" />
     </modules>
   </component>
 </project>
